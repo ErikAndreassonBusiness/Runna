@@ -1,0 +1,11 @@
+node_modules/
+.expo/
+dist/
+*.db
+*.db-journal
+.env
+.DS_Store
+ios/
+android/
+*.db-shm
+*.db-wal

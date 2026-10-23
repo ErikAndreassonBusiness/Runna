@@ -1,0 +1,11 @@
+{
+  "name": "stride",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "server": "npm run dev -w @stride/server",
+    "mobile": "npm run start -w mobile",
+    "test": "npm test -w @stride/core -w @stride/server",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}
